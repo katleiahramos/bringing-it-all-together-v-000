@@ -79,7 +79,7 @@ class Dog
     name = row[1]
     breed = row[2]
     new_dog = self.new({:name => name, :breed => breed}, id)
-
+    new_dog
   end
 
 
