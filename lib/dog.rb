@@ -69,6 +69,8 @@ class Dog
       dog = Dog.new({name: => dog_data[1], :breed => dog_data[2]}, dog_data[0])
     else
       dog = self.create(name: name, breed: breed)
+    end 
+    dog 
 
 
   end
